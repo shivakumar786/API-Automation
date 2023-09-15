@@ -1,0 +1,9 @@
+<Login_IN>
+    <Version>1.0</Version>
+    <UserInfo>
+        <ResAgent>
+            <Username>{}</Username>
+            <Password>{}</Password>
+        </ResAgent>
+    </UserInfo>
+</Login_IN>

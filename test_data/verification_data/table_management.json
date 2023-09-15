@@ -1,0 +1,67 @@
+{
+  "basicData": {
+    "name": "Default Preset",
+    "reservationType": 0,
+    "timeslotMinutes": 30,
+    "maxPartySize": 50,
+    "seatingDurationSimple": 30,
+    "sessionsEnabled": false,
+    "seatingDurationType": 0
+  },
+  "layouts": {
+    "name": "default layout",
+    "isDefault": true,
+    "groups": [],
+    "tables": {
+      "name": "03",
+      "tableSize": 4,
+      "shapeId": "round",
+      "isMultiparty": false,
+      "isBlocked": false,
+      "isAccessible": false,
+      "isVip": false,
+      "isTurned": false,
+      "x": -200,
+      "y": 40,
+      "reservationType": 0,
+      "highChair": false,
+      "publicId": "63059D54-F62E-46C2-86D9-9F1FEE5CAFD8"
+    },
+    "rolesSessionsTables": {
+      "tableId": "63059D54-F62E-46C2-86D9-9F1FEE5CAFD8",
+      "roleId": "A912FF2E-F71B-47EC-9FE9-0EC3085CC719",
+      "sessionId": "all",
+      "publicId": "B82F899C-702B-4C47-AD76-141FD44DE011"
+    },
+    "tableLinks": [],
+    "publicId": "0F1C584E-3525-450D-BA0F-A3084C7F6C22"
+  },
+  "sessions": {
+    "name": "All Sessions",
+    "timeStart": 0,
+    "timeStop": 0,
+    "publicId": "all"
+  },
+  "mealTimes": [],
+  "settingsTables": [
+    {
+      "tableSize": 2,
+      "minPartySize": 2,
+      "maxPartySize": 2,
+      "preSailingBookingPercent": 0,
+      "publicId": "a348116f-290e-42b9-a169-2bb5c3da6f33"
+    }
+  ],
+  "seatingsAdvanced": [],
+  "publicId": "0D49B961-7B87-4655-8A96-B1126363C582",
+  "venueId": "60E36953-4A21-43C4-BF11-A8D507B89018",
+  "sailing": {
+    "simId": 1,
+    "dateStart": "2019-12-10",
+    "dateEnd": "2019-12-17",
+    "status": "completed",
+    "publicId": "ED4AD7DA-E7AA-4FC7-8645-74194E2EC76C"
+  },
+  "presetId": null,
+  "isReady": true
+}

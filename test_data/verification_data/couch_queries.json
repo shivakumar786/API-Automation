@@ -1,0 +1,17 @@
+{
+  "GuestCount": "select count(*), type from {0} where type like \"Guest%\" and meta().id not like \"_sync%\" group by type;",
+  "DocumentTypes": "select distinct type from {0} where meta().id not like \"_sync%\";",
+  "Counts": "select count(*) from {0} where type = \"{1}\" and meta().id not like \"_sync%\"",
+  "guest_onboard": "select count(*) from {} where type ='GuestStatus' and EmbarkDate = '{}' and IsOnBoarded = true and meta().id not like '_sync%';",
+  "guest_checkin": "select count(*) from {} where type ='GuestStatus' and EmbarkDate = '{}' and TerminalCheckinStatus = 'COMPLETED' and meta().id not like '_sync%';",
+  "guest_leaving": "select count(*) from {} where type ='GuestStatus'and DebarkDate = '{}' and TerminalCheckinStatus = 'COMPLETED' and IsOnBoarded = true and meta().id not like '_sync%'",
+  "crew_onboard": "select count(*) from {} where type = 'TeamMemberStatus' and IsOnBoard = true",
+  "crew_checkin": "select count(*) from {} where type = 'TeamMemberStatus'and TerminalCheckinStatus = 'COMPLETED'",
+  "crew_ashore": "select count(*) from {} where type = 'TeamMemberStatus' and IsOnBoard = false and TerminalCheckinStatus = 'COMPLETED'",
+  "oci_done_moci_pending": "select count(*) from {} where type = 'GuestStatus' and IsOnlineCheckedIn = true and PreValidateStatus = 'PENDING' and EmbarkDate = '{}'",
+  "oci_done_moci_approved": "select count(*) from {} where type = 'GuestStatus' and IsOnlineCheckedIn = true and PreValidateStatus = 'APPROVED' and EmbarkDate = '{}'",
+  "oci_done_moci_rejected": "select count(*) from {} where type = 'GuestStatus' and IsOnlineCheckedIn = true and PreValidateStatus = 'REJECTED' and EmbarkDate = '{}'",
+  "visitor_approved": "select count (*) FROM {} p UNNEST Visits v where p.type = 'VisitorStatus' and meta(p).id not like '_sync%' and v.StatusCode = 'approved' and date_format_str(v.StartDate, '1111-11-11') = '{}'",
+  "visitor_rejected": "select count (*) FROM {} p UNNEST Visits v where p.type = 'VisitorStatus' and meta(p).id not like '_sync%' and v.StatusCode = 'rejected' and date_format_str(v.StartDate, '1111-11-11') = '{}'",
+  "visitor_pending": "select count (*) FROM {} p UNNEST Visits v where p.type = 'VisitorStatus' and meta(p).id not like '_sync%' and v.StatusCode = 'pending' and date_format_str(v.StartDate, '1111-11-11') = '{}'"
+}

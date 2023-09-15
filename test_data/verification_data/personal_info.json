@@ -1,0 +1,157 @@
+{
+  "title": "Mr",
+  "BirthDate": "2017-11-06",
+  "Email": "carol.phil_5785@mailinator.com",
+  "FirstName": "Carol",
+  "LastName": "Phil",
+  "GenderCode": "M",
+  "ContactNumber": "4642492750",
+  "contactNumberId": "dfe1f28a-0c5d-450c-a3dc-ae5ca9c78086",
+  "birthCountry": "US",
+  "Age": "1",
+  "NickName": "Carol",
+  "UpdateUrl": "https://dev-shore.dxp-decurtis.com/online-check-in-bff/personalinfo?sailorid=84525-79513&reservationid=84525&reservationnumber=",
+  "PhotoDetail": {
+    "ProfilePhotoUrl": "https://dev-shore.dxp-decurtis.com/multimediastorage-service/mediaitems/99340ec7-0bbf-4cef-939c-41e8b7d6ba2f",
+    "SecurityPhotoUrl": "https://dev-shore.dxp-decurtis.com/multimediastorage-service/mediaitems/e0ad06a8-f69f-4800-b690-ea89b61cde10",
+    "securityPhotoAcceptanceDetail": {
+      "status": "pending",
+      "rejectionReasonIds": []
+    },
+    "profilePhotoAcceptanceDetail": {
+      "status": "pending",
+      "rejectionReasonIds": []
+    },
+    "SecurityPhotoUploadUrl": "https://dev-shore.dxp-decurtis.com/multimediastorage-service/mediaitems?mediagroupid=f67c581d-4a9b-e611-80c2-00155df80332",
+    "ProfilePhotoUploadUrl": "https://dev-shore.dxp-decurtis.com/multimediastorage-service/mediaitems?mediagroupid=f67c581d-4a9b-e611-80c2-00155df80332",
+    "profilePhotoId": "bfd4d2d0-d5ee-470a-b498-bd2b8be6d81f",
+    "securityPhotoId": "d9de1b0a-ee07-48f8-adb7-f46b301d9747",
+    "profilePhotoIsDeleted": "False",
+    "securityPhotoIsDeleted": "False"
+  },
+  "AddressDetail": {
+    "AddressId": "196535eb-2b7d-4223-b73e-719c388d5034",
+    "AddressLine1": "221b Baker Street",
+    "AddressLine2": "wallaby way",
+    "ZipCode": "33012",
+    "CityId": "Miami",
+    "StateId": "FL",
+    "CountryId": "US"
+  },
+  "EmergencyContact": {
+    "Name": "Alex Jane",
+    "Contact": "9175608928",
+    "Email": "alex.jane@ec.com",
+    "RelationCode": "SPOUSE"
+  },
+  "Sailors": [
+    {
+      "SailorId": "84525-79511",
+      "SailorName": "Samantha Robert",
+      "SailorAge": 32,
+      "AddressId": "96d84e3c-f081-4568-908b-db2b76f7f53b"
+    },
+    {
+      "SailorId": "84525-79512",
+      "SailorName": "Sue Owen",
+      "SailorAge": 20,
+      "AddressId": "cba7f6d2-fc74-4091-9e7a-f1b7895d695c"
+    },
+    {
+      "SailorId": "84525-79514",
+      "SailorName": "Donna Edward",
+      "SailorAge": 3,
+      "AddressId": "280a742f-2952-4ad7-8261-91443af3417a"
+    }
+  ],
+  "Cabins": [
+    {
+      "CabinNumber": "319",
+      "Sailors": [
+        {
+          "SailorId": "84525-79511",
+          "SailorName": "Samantha Robert",
+          "SailorAge": 32,
+          "AddressId": "96d84e3c-f081-4568-908b-db2b76f7f53b"
+        },
+        {
+          "SailorId": "84525-79512",
+          "SailorName": "Sue Owen",
+          "SailorAge": 20,
+          "AddressId": "cba7f6d2-fc74-4091-9e7a-f1b7895d695c"
+        },
+        {
+          "SailorId": "84525-79514",
+          "SailorName": "Donna Edward",
+          "SailorAge": 3,
+          "AddressId": "280a742f-2952-4ad7-8261-91443af3417a"
+        }
+      ]
+    }
+  ],
+  "CheckInStatuses": [
+    {
+      "SailorId": "84525-79514",
+      "PersonalInfoStatus": 0,
+      "CruiseContractStatus": 0,
+      "PaymentInfoStatus": 0,
+      "PortArrivalInfoStatus": 0,
+      "IdentificationInfoStatus": 0,
+      "TravelInfoStatus": 0,
+      "minorDebarkationStatus": 0,
+      "childRegistrationStatus": 0
+    },
+    {
+      "SailorId": "84525-79513",
+      "PersonalInfoStatus": 1,
+      "CruiseContractStatus": 0,
+      "PaymentInfoStatus": 0,
+      "PortArrivalInfoStatus": 0,
+      "IdentificationInfoStatus": 0,
+      "TravelInfoStatus": 0,
+      "minorDebarkationStatus": 0,
+      "childRegistrationStatus": 0
+    },
+    {
+      "SailorId": "84525-79512",
+      "PersonalInfoStatus": 1,
+      "CruiseContractStatus": 0,
+      "PaymentInfoStatus": 0,
+      "PortArrivalInfoStatus": 0,
+      "IdentificationInfoStatus": 0,
+      "TravelInfoStatus": 0,
+      "minorDebarkationStatus": 0,
+      "childRegistrationStatus": 0
+    },
+    {
+      "SailorId": "84525-79511",
+      "PersonalInfoStatus": 1,
+      "CruiseContractStatus": 0,
+      "PaymentInfoStatus": 0,
+      "PortArrivalInfoStatus": 0,
+      "IdentificationInfoStatus": 0,
+      "TravelInfoStatus": 0,
+      "minorDebarkationStatus": 0,
+      "childRegistrationStatus": 0
+    }
+  ],
+  "validateUrl": "https://dev-shore.dxp-decurtis.com/online-check-in-bff/personalinfo/validate?sailorid=84525-79513",
+  "preferredLanguage": "en",
+  "cruisedBefore": {
+    "isSelected": "False"
+  },
+  "cruisedBeforeWithUs": {
+    "isSelected": "False"
+  },
+  "_links": {
+    "validateSecurityPhoto": {
+      "href": "https://dev-shore.dxp-decurtis.com/online-check-in-bff/personalinfo/security/validation?sailorid=84525-79513&mediaurl="
+    },
+    "validateProfilePhoto": {
+      "href": "https://dev-shore.dxp-decurtis.com/online-check-in-bff/personalinfo/profile/validation?sailorid=84525-79513&mediaurl="
+    },
+    "postalCodeLookup": {
+      "href": "https://dev-shore.dxp-decurtis.com/online-check-in-bff/lookup/postalcode/"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LoadBooking_IN>
+    <MsgHeader>
+        <Version>1.0</Version>
+        <SessionGUID>{}</SessionGUID>
+        <Language>ENG</Language>
+    </MsgHeader>
+    <ResShellOptions>
+    </ResShellOptions>
+    <ResID>{}</ResID>
+    <Options>
+        <Lock>Y</Lock>
+    </Options>
+</LoadBooking_IN>

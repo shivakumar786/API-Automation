@@ -1,0 +1,39 @@
+{
+  "GuestCount": 0,
+  "OrdersCount": 0,
+  "SaleAmount": 0,
+  "BartendersCount": 0,
+  "ServersCount": 0,
+  "ServerAdminCount": 0,
+  "DashboardAsOnTime": "0001-01-01T00:00:00",
+  "BusinessStartDateTime": "0001-01-01T00:00:00",
+  "BusinessEndDateTime": "0001-01-01T00:00:00",
+  "VenueAdminOrderStaticsDetails": {
+    "AverageProcessingTime": 0,
+    "AverageOrderPerServer": 0,
+    "AverageItemsPerServer": 0,
+    "OrderTypeStatistics": [
+      {
+        "OrderTypeId": "71b536df-b9ec-11e9-b327-16345b88f44a",
+        "OrderStatistics": [
+          {
+            "OrderCount": 4,
+            "OrderStatus": "1"
+          },
+          {
+            "OrderCount": 324,
+            "OrderStatus": "5"
+          }
+        ]
+      }
+    ],
+    "DeliveryLimitOrderTypeStatistics": [
+      {
+        "OrderTypeId": "71b536df-b9ec-11e9-b327-16345b88f44a",
+        "OrderStatistics": []
+      }
+    ]
+  },
+  "GuestOrderCounts": [],
+  "OrderedItemsAndRevenueCount": []
+}

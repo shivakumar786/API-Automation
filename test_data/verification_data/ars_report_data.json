@@ -1,0 +1,20 @@
+{
+  "Activities": {
+    "ActivityList": {
+      "ActivityName": "Not Available",
+      "ActivityId": "e30a5ae0-762c-4be5-a506-ce4eab4ef034"
+    },
+    "ActivityGroupCode": "PA",
+    "ActivityGroupName": "Port Advanture",
+    "ActivityGroupId": "4562cee0-ce71-11e9-a32f-2a2ae2dbcce4"
+  },
+  "Status": {
+    "Status": "OPEN"
+  },
+  "Vendors": [],
+  "PortData": {
+    "code": "BIM",
+    "name": "Bimini",
+    "portId": "f5d9c4fb-95ec-4519-8226-c9282e32df06"
+  }
+}

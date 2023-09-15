@@ -1,0 +1,43 @@
+{
+  "id": "bf3617f4-8032-4458-a864-4df383967637",
+  "freeForm": true,
+  "draft": false,
+  "voyageNumber": "SC2008305NCM",
+  "itineraryDay": 5,
+  "scheduled": true,
+  "scheduledTime": "2020-09-03T15:30:11",
+  "repeatDaily": false,
+  "ownerId": "d6653e24-134e-11ea-984e-4201ac180006",
+  "ownerName": "Daryl Prince",
+  "distributionList": {
+    "type": "PRIVATE",
+    "ownerId": "d6653e24-134e-11ea-984e-4201ac180006",
+    "recipientTypeId": "8e025435-ef39-4ecc-9320-b8edd6ec661f",
+    "filter": {
+      "deck": [
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "24"
+      ],
+      "cabin": [
+        "5162Z",
+        "5186Z",
+        "5210Z",
+        "5226A"
+      ]
+    }
+  },
+  "members": {
+    "recipientTypeId": "8e025435-ef39-4ecc-9320-b8edd6ec661f",
+    "name": "sailorthree may",
+    "personId": "ae0d6498-59f1-4836-8b5e-b773791d487e",
+    "personTypeCode": "G",
+    "cabin": "11326Z"
+  },
+  "createdAt": "2020-08-31T13:24:41"
+}

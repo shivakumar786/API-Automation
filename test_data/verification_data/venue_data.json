@@ -1,0 +1,14 @@
+{
+  "VenueId": "13b456ac-105c-4c37-83aa-32f59c73fe44",
+  "IsDefaultVenue": false,
+  "IsFoodDeliveryAvailable": true,
+  "GlobalVenueId": "5a4bf485da0c112a66ed6277",
+  "Name": "The Wake",
+  "AddedDate": "0001-01-01T00:00:00",
+  "IsActive": true,
+  "VenueTypeId": "8d8c76d7-03f1-3cc5-a001-5928299cd3c7",
+  "VenueType": {
+    "VenueTypeId": "8d8c76d7-03f1-3cc5-a001-5928299cd3c7",
+    "VenueTypeName": "Restaurants                                                                                                                                           "
+  }
+}

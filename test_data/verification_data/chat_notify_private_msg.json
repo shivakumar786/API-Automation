@@ -1,0 +1,52 @@
+{
+  "result": "success",
+  "msg": "",
+  "messages": [
+    {
+      "id": 2873,
+      "sender_id": 72,
+      "content": "Hii!!",
+      "recipient_id": 86,
+      "timestamp": 1581158097,
+      "client": "python-requests",
+      "subject": "",
+      "subject_links": [],
+      "is_me_message": false,
+      "reactions": [],
+      "submessages": [],
+      "flags": [],
+      "sender_full_name": "30fd60f5-294d-4335-ac17-9ad1723d2528",
+      "sender_short_name": "30fd60f5-294d-4335-ac17-9ad1723d2528",
+      "sender_email": "30fd60f5-294d-4335-ac17-9ad1723d2528@zulip.com",
+      "sender_realm_str": "zulip",
+      "display_recipient": [
+        {
+          "id": 69,
+          "email": "2d0bf514-d01c-45af-b3f3-db8361f3bf6c@zulip.com",
+          "full_name": "2d0bf514-d01c-45af-b3f3-db8361f3bf6c",
+          "short_name": "2d0bf514-d01c-45af-b3f3-db8361f3bf6c",
+          "is_mirror_dummy": false
+        },
+        {
+          "email": "30fd60f5-294d-4335-ac17-9ad1723d2528@zulip.com",
+          "full_name": "30fd60f5-294d-4335-ac17-9ad1723d2528",
+          "short_name": "30fd60f5-294d-4335-ac17-9ad1723d2528",
+          "id": 72,
+          "is_mirror_dummy": false
+        }
+      ],
+      "type": "private",
+      "avatar_url": "https://secure.gravatar.com/avatar/534a866cbdab2311168865539462636f?d=identicon&version=1",
+      "content_type": "text/x-markdown",
+      "delivery_time": null,
+      "read_time": null
+    }
+  ],
+  "found_anchor": true,
+  "found_oldest": true,
+  "found_newest": true,
+  "history_limited": false,
+  "anchor": 2873,
+  "delivery_time": null,
+  "read_time": null
+}

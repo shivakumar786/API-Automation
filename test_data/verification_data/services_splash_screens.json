@@ -1,0 +1,27 @@
+{
+  "recentOrdersIconImageURL": "https://integration.virginvoyages.com/dam/jcr:da6393d9-15d7-46b6-a37e-7cc4dd4e5b1e/ICN-menu-black-v1-01-32x32.svg",
+  "portholeImage": "https://integration.virginvoyages.com/dam/jcr:c0128d47-18b0-40d3-9ee5-23fb286d5e6f/RENDER-presail-ship-eats-food-314x314.jpg",
+  "shipEats": [
+    {
+      "header": "Order the best bites and bevs",
+      "numberLabel": "1",
+      "subHeader": "From champagne to light and healthy snacks, choose from any of our bites and bev options"
+    },
+    {
+      "header": "Delivered right to you",
+      "numberLabel": "2",
+      "subHeader": "Thanks to The Band, our crew can deliver to more spots than just your cabin"
+    },
+    {
+      "header": "Breakfast in bed, but also…",
+      "numberLabel": "3",
+      "subHeader": "The pool, most outdoor spaces, the catamaran, and Richard’s Rooftop. If you can spread out, so can our spreads."
+    }
+  ],
+  "backButtonIconImageURL": "https://integration.virginvoyages.com/dam/jcr:799b8309-5476-47e1-b025-0353b489a650/ICN-arrow-left-black-v1-01-24x24.svg",
+  "recentOrdersText": "Recent orders",
+  "shipEatsDelivery": "ShipEats Delivery",
+  "description": "Our spin on room service-and-beyond. You'll be able to:",
+  "title": "ShipEats Delivery",
+  "backActionURL": "https://int.gcpshore.virginvoyages.com/discovery-bff/discover/landing?reservation-id=760d1e8c-8dee-40e1-92ed-865886f2efeb&reservation-guest-id=893fd8aa-c84f-4d67-a751-abe0d098f50b"
+}

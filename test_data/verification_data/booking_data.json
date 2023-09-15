@@ -1,0 +1,30 @@
+{
+  "activityBookingId": "c8fb0ab4-0c50-47de-8e88-490dfd5ce412",
+  "bookingLinkId": "5cec69c9-6b6f-4d6b-8054-236c97fa24a0",
+  "activityCode": "BIMAUT00002",
+  "status": "CANCELLED",
+  "percentDiscountGiven": 0.0,
+  "paymentStatus": "REFUNDED",
+  "bookingAmountPaid": 0.0,
+  "bookingAmountPending": 35.0,
+  "refundAmountPending": 0.0,
+  "refundAmountPaid": 0.0,
+  "activitySlotCode": "106125",
+  "startDateTime": 1574762400000,
+  "endDateTime": 1574769600000,
+  "activityPersonBookings": {
+    "activityPersonBookingId": "260b1184-02b7-40b9-b222-d40e41ba1f0f",
+    "personId": "50a88091-f3d5-473b-94f9-854422f23869",
+    "personTypeCode": "G",
+    "isCheckedIn": false
+  },
+  "payeePersonTypeCode": "G",
+  "payeePersonId": "f215a067-546d-454e-9b65-2dc5cb31c2bc",
+  "bookedByPersonTypeCode": "C",
+  "bookedByPersonId": "f215a067-546d-454e-9b65-2dc5cb31c2bc",
+  "activityGroupCode": "PA",
+  "discountAmount": 0.0,
+  "discountUnit": null,
+  "gifted": false,
+  "giftViewed": false
+}

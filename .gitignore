@@ -1,0 +1,117 @@
+# Byte-compiled / optimized / DLL files
+**/__pycache__/
+**/.pytest_cache
+*.py[cod]
+config.json
+agent_online.py
+# C extensions
+*.so
+*.pyc
+# Distribution / packaging
+.Python
+env/
+venv/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+coverage.xml
+*,cover
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# JetBrains
+.idea
+.idea/
+
+# OSX
+*.DS_Store*
+
+# vscode
+.vscode/
+
+# allure reports (and it's directories)
+assets/
+*_Report.*
+*.lint
+*_results.*
+/allure_reports/*
+/allure_results/*
+/app_versions.json
+/report.html
+/report.json
+/guest_details.json
+/guest_data.json
+/test_data.json
+/shipInfoCalls.json
+/shoreInfoCalls.json
+/*.ipynb
+test_scripts/report.json
+test_scripts/test_data.json
+/.ipynb_checkpoints/*
+/urlPaths.json
+/test_data/gen_**
+/missing*.json
+/not_*.json
+**/urlPaths.json
+/test_scripts/guest_data.json
+/allure**
+/sample*.py
+/ship*.json
+/shore*.json
+/wrong*.json
+/config*.json
+/config*.yaml
+/test_data*.yaml
+/failShipInfoCalls.json
+/failShoreInfoCalls.json
+/generated_images/
+/PodLogs/
+/report.xml
+/slack_data.json
+/qc*.json
+/vxp*.json
+/guest_data*.json
+/test_data*.json
+/version*.json
+/curlCommands.json
+/uiConfigBadLinks.json
+bitbucket-pipelines.yml

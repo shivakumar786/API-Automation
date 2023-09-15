@@ -1,0 +1,11 @@
+<StoreBooking_IN>
+    <MsgHeader>
+        <Version>1.0</Version>
+        <SessionGUID>{}</SessionGUID>
+        <Language>ENG</Language>
+    </MsgHeader>
+    <Options>
+        <Unlock>Y</Unlock>
+    </Options>
+    <ResID>{}</ResID>
+</StoreBooking_IN>

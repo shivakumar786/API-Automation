@@ -1,0 +1,30 @@
+<UpdateBooking_IN>
+    <MsgHeader>
+        <Version>1.0</Version>
+        <SessionGUID>{}</SessionGUID>
+        <Language>ENG</Language>
+        <ValidateMode>Y</ValidateMode>
+    </MsgHeader>
+    <ResShell>
+        <ResHeader>
+            {}
+        </ResHeader>
+        <ResGuests>
+            {}
+        </ResGuests>
+        <ResPackages>
+            {}
+        </ResPackages>
+        <ResDining>
+            <DiningRequest>
+                <ResponsibleGuest>1</ResponsibleGuest>
+                <GuestRefs>1 2</GuestRefs>
+                <Restaurant>{}</Restaurant>
+                <Date>{}</Date>
+                <StartTime>19:00:00.000</StartTime>
+                <Duration>120</Duration>
+                <PartySize>2</PartySize>
+            </DiningRequest>
+        </ResDining>
+    </ResShell>
+</UpdateBooking_IN>

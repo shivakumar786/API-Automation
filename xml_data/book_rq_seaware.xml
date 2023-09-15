@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<vx:OTA_CruiseBookRQ Version="1.25" CorrelationID="brucewayneisonbughunting"
+                     xmlns:vx="http://www.opentravel.org/OTA/2003/05"
+                     xmlns:ns4="http://schemas.xmlsoap.org/soap/envelope/"
+                     xmlns:ns3="http://www.versonix.com/ota">
+    <vx:POS>
+        <vx:Source>
+            <vx:RequestorID Type="5" ID_Context="SEAWARE" ID="5"/>
+            <vx:BookingChannel Type="1">
+                <vx:CompanyName>OPENTRAVEL</vx:CompanyName>
+            </vx:BookingChannel>
+        </vx:Source>
+    </vx:POS>
+    <vx:SailingInfo>
+        <vx:SelectedSailing VoyageID="{}">
+            <vx:CruiseLine ShipCode="{}"/>
+        </vx:SelectedSailing>
+        <vx:SelectedCategory PricedCategoryCode="{}" FareCode="HOLD NOT">
+            <vx:SelectedCabin Status="36" CabinCategoryCode="{}"
+                              CabinNumber="{}"/>
+        </vx:SelectedCategory>
+    </vx:SailingInfo>
+    <vx:ReservationInfo>
+        <vx:GuestDetails>
+            <vx:GuestDetail>
+                <vx:ContactInfo GuestRefNumber="1" Age="{}" Nationality="{}"
+                                PersonBirthDate="{}" Gender="{}"
+                                ContactType="REGULAR" BirthDate="{}">
+                    <vx:PersonName>
+                        <vx:GivenName>{}</vx:GivenName>
+                        <vx:Surname>{}</vx:Surname>
+                    </vx:PersonName>
+                    <vx:Address Type="2">
+                        <vx:AddressLine>street</vx:AddressLine>
+                        <vx:AddressLine>12</vx:AddressLine>
+                        <vx:CityName>miami</vx:CityName>
+                        <vx:PostalCode>30180</vx:PostalCode>
+                        <vx:StateProv StateCode="FL"></vx:StateProv>
+                        <vx:CountryName Code="US">US</vx:CountryName>
+                    </vx:Address>
+                    <vx:Address Type="1">
+                        <vx:AddressLine>street</vx:AddressLine>
+                        <vx:AddressLine>12</vx:AddressLine>
+                        <vx:CityName>miami</vx:CityName>
+                        <vx:PostalCode>30180</vx:PostalCode>
+                        <vx:StateProv StateCode="FL"></vx:StateProv>
+                        <vx:CountryName Code="US">US</vx:CountryName>
+                    </vx:Address>
+                    <vx:Email>{}</vx:Email>
+                </vx:ContactInfo>
+            </vx:GuestDetail>
+            <vx:GuestDetail>
+                <vx:ContactInfo GuestRefNumber="2" Age="{}" Nationality="{}"
+                                PersonBirthDate="{}" Gender="{}"
+                                ContactType="REGULAR" BirthDate="{}">
+                    <vx:PersonName>
+                        <vx:GivenName>{}</vx:GivenName>
+                        <vx:Surname>{}</vx:Surname>
+                    </vx:PersonName>
+                    <vx:Address Type="2">
+                        <vx:AddressLine>street</vx:AddressLine>
+                        <vx:AddressLine>12</vx:AddressLine>
+                        <vx:CityName>miami</vx:CityName>
+                        <vx:PostalCode>30180</vx:PostalCode>
+                        <vx:StateProv StateCode="FL"></vx:StateProv>
+                        <vx:CountryName Code="US">US</vx:CountryName>
+                    </vx:Address>
+                    <vx:Address Type="1">
+                        <vx:AddressLine>street</vx:AddressLine>
+                        <vx:AddressLine>12</vx:AddressLine>
+                        <vx:CityName>miami</vx:CityName>
+                        <vx:PostalCode>30180</vx:PostalCode>
+                        <vx:StateProv StateCode="FL"></vx:StateProv>
+                        <vx:CountryName Code="US">US</vx:CountryName>
+                    </vx:Address>
+                    <vx:Email>{}</vx:Email>
+                </vx:ContactInfo>
+            </vx:GuestDetail>
+        </vx:GuestDetails>
+    </vx:ReservationInfo>
+</vx:OTA_CruiseBookRQ>

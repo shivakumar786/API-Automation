@@ -1,0 +1,13 @@
+{
+  "result": "success",
+  "msg": "",
+  "support_queues": {
+    "id": 1,
+    "sailor_iam_user_id": "7500a062-5c27-11e9-91c6-4201ac180008",
+    "subject": "help",
+    "status": "resolved",
+    "loyalty": "vip",
+    "requires_attention": false,
+    "first_message_time": 1575569559
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "depositAmount": {
+    "amount": "1945.2",
+    "dueDate": "7:40 AM, 24th October 2019"
+  },
+  "finalAmount": {
+    "amount": "7780.8",
+    "dueDate": "7:40 AM, 24th January 2020"
+  },
+  "guestDetails": [
+    {
+      "guestId": "79499",
+      "titleCode": "Mr",
+      "firstName": "Diana",
+      "lastName": "Phil",
+      "birthDate": "1999-01-18",
+      "citizenshipCountryCode": "US",
+      "emergencyFlag": "False",
+      "guestRefNumber": "1"
+    },
+    {
+      "guestId": "79500",
+      "titleCode": "Mr",
+      "firstName": "Tracey",
+      "lastName": "Stephen",
+      "birthDate": "1992-01-10",
+      "citizenshipCountryCode": "US",
+      "emergencyFlag": "False",
+      "guestRefNumber": "2"
+    },
+    {
+      "guestId": "79501",
+      "titleCode": "Mr",
+      "firstName": "Carolyn",
+      "lastName": "Sebastian",
+      "birthDate": "1983-09-04",
+      "citizenshipCountryCode": "US",
+      "emergencyFlag": "False",
+      "guestRefNumber": "3"
+    },
+    {
+      "guestId": "79502",
+      "titleCode": "Mr",
+      "firstName": "Claire",
+      "lastName": "Sean",
+      "birthDate": "2016-04-19",
+      "citizenshipCountryCode": "US",
+      "emergencyFlag": "False",
+      "guestRefNumber": "4"
+    }
+  ],
+  "backgroundImageUrl": "https://dev-shore.dxp-decurtis.com/magnoliaAuthor/dam/jcr:cc2a7d66-3eba-4cf5-9270-7bc4555bd2ae",
+  "shipName": "Sagar",
+  "reservationID": "84522",
+  "statusCode": "None",
+  "bookedDate": "None",
+  "totalAmount": "9726",
+  "dueAmount": "2000",
+  "paidAmount": "7726",
+  "activityReservationUrl": "http://dxpactivityreservationservice/activity-reservation-service/",
+  "onlineCheckInUrl": "https://dev-shore.dxp-decurtis.com/online-check-in",
+  "reservationStatus": "PartiallyPaid",
+  "packageCode": "4D Caribbean",
+  "packageName": "4 Day Caribbean Cruise",
+  "voyageId": "DX201910244DCARIBBEAN",
+  "shipCode": "DX",
+  "start": "2019-10-24",
+  "end": "2019-10-28",
+  "embarkdate": "2019-10-24",
+  "debarkdate": "2019-10-28",
+  "cabins": [],
+  "ports": []
+}

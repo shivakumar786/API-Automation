@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<GetAvailDinings_IN>
+    <MsgHeader>
+        <Version>1.0</Version>
+        <SessionGUID>{}</SessionGUID>
+        <Language>ENG</Language>
+    </MsgHeader>
+    <SearchParams>
+        <Ship>{}</Ship>
+        <DateTimeRange>
+            <From>{}T00:00:00.000Z</From>
+            <To>{}T00:00:00.000Z</To>
+        </DateTimeRange>
+    </SearchParams>
+    <ResShellRef>{}</ResShellRef>
+</GetAvailDinings_IN>

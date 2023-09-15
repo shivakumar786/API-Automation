@@ -1,0 +1,84 @@
+{
+  "titleCode": "Mr",
+  "firstName": "DIANA",
+  "lastName": "SAM",
+  "genderCode": "F",
+  "citizenShipCountryCode": "US",
+  "birthDate": "1982-08-13",
+  "boardingStatus": "ONBOARD",
+  "boardingStatusChangedDate": "2019-10-24T00:00:00",
+  "boardingStatusTypeCode": "BS",
+  "terminalCheckedInBy": "84563-79663",
+  "terminalCheckedInStatus": "COMPLETED",
+  "reservationGuestId": "84563-79663",
+  "birthCountryCode": "US",
+  "embarkDate": "2019-10-24",
+  "debarkDate": "2019-10-28",
+  "stateroom": "315",
+  "reservationNumber": "84563",
+  "voyageNumber": "DX201910244DCARIBBEAN",
+  "shipCode": "DX",
+  "securityPhotoMediaItemId": "b46d6bfa-5d1e-417a-a2b5-8c6f48a0e566",
+  "profilePhotoMediaItemId": "16e40f8b-4d20-4cfb-94e8-d91957f2d198",
+  "guestMediaItems": [
+    {
+      "isDeleted": "False",
+      "createdByUser": "4355647c-38d2-404c-a565-606e93ad5bf1",
+      "guestMediaItemId": "723295fa-a9e2-443c-bce8-c04a21c41bb3",
+      "multiMediaItemId": "16e40f8b-4d20-4cfb-94e8-d91957f2d198",
+      "guestId": "79663",
+      "mediaType": "Profile Photo",
+      "modificationTime": "2019-10-22T15:03:36"
+    },
+    {
+      "isDeleted": "False",
+      "createdByUser": "4355647c-38d2-404c-a565-606e93ad5bf1",
+      "guestMediaItemId": "8d269065-db9a-43f9-bd55-a316e2fac13b",
+      "multiMediaItemId": "b46d6bfa-5d1e-417a-a2b5-8c6f48a0e566",
+      "guestId": "79663",
+      "mediaType": "Security Photo",
+      "modificationTime": "2019-10-22T15:03:36"
+    }
+  ],
+  "identifications": [
+    {
+      "isDeleted": "False",
+      "createdByUser": "4355647c-38d2-404c-a565-606e93ad5bf1",
+      "identificationId": "a519614f-5cf4-4309-9fbc-b1d0c6d84410",
+      "documentTypeCode": "P",
+      "number": "PK589D9"
+    }
+  ],
+  "guestDocuments": [
+    {
+      "guestDocumentId": "b8dd568f-8c1c-43d6-90b8-2c575f255c57",
+      "reservationGuestId": "84563-79663",
+      "documentType": "Profile Photo",
+      "documentId": "723295fa-a9e2-443c-bce8-c04a21c41bb3",
+      "isDeleted": "False",
+      "modificationTime": "2019-10-22T15:03:36"
+    },
+    {
+      "guestDocumentId": "b8a8072e-f706-4932-8073-56bba19f9a80",
+      "reservationGuestId": "84563-79663",
+      "documentType": "Security Photo",
+      "documentId": "8d269065-db9a-43f9-bd55-a316e2fac13b",
+      "isDeleted": "False",
+      "modificationTime": "2019-10-22T15:03:36"
+    },
+    {
+      "guestDocumentId": "6e778e84-0e93-43ca-a81a-b3b0a5f28f57",
+      "reservationGuestId": "84563-79663",
+      "documentType": "P",
+      "documentId": "a519614f-5cf4-4309-9fbc-b1d0c6d84410",
+      "isDeleted": "False",
+      "modificationTime": "2019-10-22T15:03:36"
+    }
+  ],
+  "_links": {
+    "self": {
+      "href": "http://dev-sagar.dxp-decurtis.com/embarkationadmin-service/gangway/reservation-guest/{id}",
+      "templated": "True"
+    }
+  }
+}

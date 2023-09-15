@@ -1,0 +1,51 @@
+{
+  "maintenanceText": "Maintenance",
+  "serviceActiveStateIconURL": "https://integration.virginvoyages.com/dam/jcr:2a8c0c86-bc4b-4827-87d0-62b41ce53f6b/ICN-time-black-v1-01-32x32.svg",
+  "header": "Hey Sailor, tell us how we can help you.",
+  "serviceButtons": [
+    {
+      "requestName": "freshTowels",
+      "label": "Fresh towels",
+      "isHidden": false,
+      "isActive": false,
+      "actionURL": "https://integrationship.virginvoyages.com/integration-svc/housekeeping-bff/freshTowels/confirmation?device=tablet&isActive=false"
+    },
+    {
+      "requestName": "cabinClean",
+      "label": "Cabin cleaned",
+      "isHidden": false,
+      "isActive": false,
+      "actionURL": "https://integrationship.virginvoyages.com/integration-svc/housekeeping-bff/cabinClean/confirmation?device=tablet&isActive=false"
+    },
+    {
+      "requestName": "bed",
+      "label": "Bed...",
+      "isHidden": false,
+      "isActive": false,
+      "actionURL": "https://integrationship.virginvoyages.com/integration-svc/housekeeping-bff/bed/confirmation?device=tablet&isActive=false"
+    },
+    {
+      "requestName": "waterRefill",
+      "label": "Water...",
+      "isHidden": false,
+      "isActive": false,
+      "actionURL": "https://integrationship.virginvoyages.com/integration-svc/housekeeping-bff/waterRefill/confirmation?device=tablet&isActive=false"
+    },
+    {
+      "requestName": "ice",
+      "label": "Ice",
+      "isHidden": false,
+      "isActive": false,
+      "actionURL": "https://integrationship.virginvoyages.com/integration-svc/housekeeping-bff/ice/confirmation?device=tablet&isActive=false"
+    },
+    {
+      "requestName": "laundry",
+      "label": "Laundry picked-up",
+      "isHidden": false,
+      "isActive": false,
+      "actionURL": "https://integrationship.virginvoyages.com/integration-svc/housekeeping-bff/laundry/confirmation?device=tablet&isActive=false"
+    }
+  ],
+  "serviceLabel": "Service",
+  "backgroundImageURL": "https://integration.virginvoyages.com/dam/jcr:183014ad-2530-4e12-a1cf-6b2aec9028a6/contact-person.jpg"
+}

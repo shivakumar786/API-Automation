@@ -1,0 +1,23 @@
+<GetAvailShorex_IN>
+    <MsgHeader>
+        <Version>1.0</Version>
+        <SessionGUID>{}</SessionGUID>
+        <Language>ENG</Language>
+    </MsgHeader>
+    <SearchParams>
+        <MatchItinerary>N</MatchItinerary>
+        <PackageStartRange>
+            <From>{}Z</From>
+            <To>{}Z</To>
+        </PackageStartRange>
+        <PackageEndRange>
+            <From>{}Z</From>
+            <To>{}Z</To>
+        </PackageEndRange>
+    </SearchParams>
+    <SearchOptions>
+        <AvailabilityMode>WTL</AvailabilityMode>
+        <IncludeComponents>Y</IncludeComponents>
+        <IncludeClassifications>Y</IncludeClassifications>
+    </SearchOptions>
+</GetAvailShorex_IN>

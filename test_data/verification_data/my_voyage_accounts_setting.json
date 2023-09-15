@@ -1,0 +1,122 @@
+{
+  "profilePhotoURL": "",
+  "voyageSettings": {
+    "header": "Voyage Settings",
+    "description": "All your sweet info in one place. Feel free to tweak as you need, or leave it be. Your call.",
+    "emergencyContact": {
+      "title": "Emergency contact",
+      "detailURL": "https://int.gcpshore.virginvoyages.com/voyage-account-settings-bff/emergencycontact?reservation-guest-id=5314d5b3-c878-447f-89a0-dfae295a8817",
+      "description": "Let us know who we should contact should anything happen.",
+      "isEnable": true,
+      "isEditable": true,
+      "isHidden": false,
+      "sequence": 5
+    },
+    "notificationsAndPrivacy": {
+      "title": "Notifications & privacy",
+      "description": "Set up how and when you'd like us to contact you, and what info you want available to us.",
+      "isEnable": true,
+      "isEditable": true,
+      "isHidden": false,
+      "sequence": 2
+    },
+    "sailingDocuments": {
+      "title": "Sailing documents",
+      "detailURL": "https://int.gcpshore.virginvoyages.com/voyage-account-settings-bff/sailingdocuments/landing?reservation-guest-id=5314d5b3-c878-447f-89a0-dfae295a8817&reservation-id=0e70915e-130f-49d4-9a00-fec783107407&reservation-number=84778",
+      "description": "Anything you need to sign, or have signed",
+      "isEnable": true,
+      "isEditable": true,
+      "isHidden": false,
+      "sequence": 6
+    },
+    "specialAssistance": {
+      "title": "Special assistance",
+      "detailURL": "https://int.gcpshore.virginvoyages.com/voyage-account-settings-bff/specialassistance?reservation-guest-id=5314d5b3-c878-447f-89a0-dfae295a8817",
+      "description": "Let us know how we can help you",
+      "isEnable": true,
+      "isEditable": true,
+      "isHidden": false,
+      "sequence": 4
+    },
+    "voyageAddOns": {
+      "title": "Voyage add-ons",
+      "description": "Nullam id dolor id nibh ultricies",
+      "isEnable": false,
+      "isEditable": false,
+      "isHidden": true,
+      "sequence": 3
+    },
+    "wearableAndPin": {
+      "title": "Wearable and PIN",
+      "isEnable": true,
+      "isEditable": false,
+      "isHidden": false,
+      "sequence": 1
+    }
+  },
+  "accountSettings": {
+    "header": "Profile & Settings",
+    "description": "All your sweet info in one place. Feel free to tweak as you need, or leave it be. Your call.",
+    "personalInformation": {
+      "title": "Personal information",
+      "detailURL": "https://int.gcpshore.virginvoyages.com/voyage-account-settings-bff/user/personal",
+      "description": "All your personal stuff — but only what we need to know. You can keep your secrets.",
+      "isEnable": true,
+      "isEditable": true,
+      "isHidden": false,
+      "sequence": 1
+    },
+    "contactDetails": {
+      "title": "Contact details",
+      "detailURL": "https://int.gcpshore.virginvoyages.com/voyage-account-settings-bff/user/contact",
+      "description": "How should we get in touch?",
+      "isEnable": true,
+      "isEditable": true,
+      "isHidden": false,
+      "sequence": 2
+    },
+    "accountLogin": {
+      "title": "Login details",
+      "detailURL": "https://int.gcpshore.virginvoyages.com/voyage-account-settings-bff/login/landing",
+      "description": "Make changes to the way you login",
+      "isEnable": true,
+      "isEditable": true,
+      "isHidden": false,
+      "sequence": 3
+    },
+    "paymentCard": {
+      "title": "Payment methods",
+      "description": "You can add your card here to make your future payments easy peasy.",
+      "isEnable": true,
+      "isEditable": true,
+      "isHidden": false,
+      "sequence": 4
+    },
+    "switchVoyage": {
+      "title": "Switch Voyage",
+      "detailURL": "https://int.gcpshore.virginvoyages.com/voyage-account-settings-bff/user/reservations",
+      "isEnable": false,
+      "isEditable": false,
+      "isHidden": false,
+      "sequence": 7
+    },
+    "termsAndConditions": {
+      "title": "Terms and conditions",
+      "description": "All that legal jazz",
+      "isEnable": true,
+      "isEditable": true,
+      "isHidden": false,
+      "sequence": 6
+    },
+    "commsAndMarketing": {
+      "title": "Communication preferences",
+      "detailURL": "https://int.gcpshore.virginvoyages.com/voyage-account-settings-bff/user/communicationpreferences",
+      "description": "Can we call you on your cellphone, or slide into your DMs?",
+      "isEnable": true,
+      "isEditable": true,
+      "isHidden": false,
+      "sequence": 5
+    }
+  },
+  "profilePhotoUploadURL": "https://int.gcpshore.virginvoyages.com/voyage-account-settings-bff/user/photo"
+}

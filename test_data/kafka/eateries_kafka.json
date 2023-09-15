@@ -1,0 +1,63 @@
+{
+  "n": "venue-availability:updated",
+  "ts": "{{currentTimeUTC}}",
+  "ci": "63a8d788-f82a-4da8-80d4-d61f1a4be024",
+  "cn": "spark-go",
+  "tg": "venue-availability:updated",
+  "plt": "json",
+  "pl": {
+    "id": "5a4bf485da0c112a66ed6217",
+    "sailing": "SC200310NEW",
+    "name": "Razzle Dazzle",
+    "venueTypes": [
+      {
+        "id": "5a5fe167f35d911533aa0e54",
+        "name": "Restaurant"
+      }
+    ],
+    "availability": [],
+    "mealPeriods": [
+      {
+        "startTime": {
+          "hour": 6,
+          "minute": 0
+        },
+        "duration": 120,
+        "type": "Breakfast",
+        "code": "01"
+      },
+      {
+        "startTime": {
+          "hour": 19,
+          "minute": 0
+        },
+        "duration": 240,
+        "type": "Dinner",
+        "code": "03",
+        "needsReservation": true
+      },
+      {
+        "startTime": {
+          "hour": 12,
+          "minute": 0
+        },
+        "duration": 90,
+        "type": "Lunch",
+        "code": "02",
+        "needsReservation": false
+      },
+      {
+        "startTime": {
+          "hour": 1,
+          "minute": 0
+        },
+        "duration": 1320,
+        "type": "24 Hour Menu",
+        "code": "05",
+        "needsReservation": false
+      }
+    ],
+    "date": "{{embarkDate}}",
+    "action": "update"
+  }
+}

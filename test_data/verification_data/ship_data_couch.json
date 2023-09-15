@@ -1,0 +1,129 @@
+{
+  "AccessCardNumbers": [
+    {
+      "AccessCardNumber": "157175749338433363",
+      "CreditBalance": 0,
+      "DebitBalance": 0,
+      "FolioID": "ca559d57-5526-4646-974a-6bebb75f2a07",
+      "IsAtRisk": "False",
+      "IsGangwayAllowed": "False"
+    }
+  ],
+  "Addresses": [
+    {
+      "AddressID": "b9ee14f7-be2b-40dc-a574-d37481b55c5d",
+      "AddressTypeCode": "1",
+      "City": "Miami",
+      "CountryCode": "US",
+      "Line1": "221b Baker Street",
+      "Line2": "wallaby way",
+      "State": "FL",
+      "Zip": "33012"
+    }
+  ],
+  "BirthDate": "1990-01-09",
+  "BirthDateEpoch": 631843200000,
+  "Celeberations": [],
+  "CitizenshipCountryCode": "US",
+  "DebarkDate": "2019-10-28",
+  "DebarkDateEpoch": 1572307199999,
+  "DebarkPortCode": "MIA",
+  "DebarkPortName": "Miami",
+  "Email": "victoria.robert_6747@mailinator.com",
+  "EmbarkDate": "2019-10-24",
+  "EmbarkDateEpoch": 1571875200000,
+  "EmbarkPortCode": "MIA",
+  "EmbarkPortName": "Miami",
+  "EmergencyContacts": [
+    {
+      "EmailID": "alex.jane@ec.com",
+      "EmergencyContactID": "e87cd574-8a6a-439e-9526-1b587e9690ef",
+      "Name": "Alex Jane",
+      "PhoneNumber": "1411346584",
+      "Relationship": "SPOUSE"
+    }
+  ],
+  "ExpiryDateEpoch": 1572393600000,
+  "FirstName": "VICTORIA",
+  "FullName": "VICTORIA ROBERT",
+  "GuestID": "79671",
+  "GuestPreferences": [],
+  "GuestSecurityMediaItemID": "65398787-9364-4ff1-a211-f75aeb1aa68e",
+  "IsSameAddressForParty": "False",
+  "IsSameEmergencyContactForParty": "False",
+  "IsVIP": "False",
+  "LastName": "ROBERT",
+  "PhoneNumbers": [
+    {
+      "AreaCode": "",
+      "CountryCode": "",
+      "GuestID": "79671",
+      "Number": "4830679200",
+      "PhoneID": "6aa4701c-6f93-48eb-a855-f42a067a7a8e",
+      "PhoneTypeCode": "Home"
+    }
+  ],
+  "ReservationGuestID": "84565-79671",
+  "ReservationID": "84565",
+  "ReservationNumber": "84565",
+  "ReservationParty": [
+    {
+      "ReservationGuestID": "84565-79673"
+    },
+    {
+      "ReservationGuestID": "84565-79672"
+    },
+    {
+      "ReservationGuestID": "84565-79674"
+    }
+  ],
+  "ShipCode": "DX",
+  "ShipName": "Sagar",
+  "SpecialNeeds": [],
+  "Stateroom": "304",
+  "StateroomParty": [
+    {
+      "ReservationGuestID": "84565-79673"
+    },
+    {
+      "ReservationGuestID": "84565-79672"
+    },
+    {
+      "ReservationGuestID": "84565-79674"
+    }
+  ],
+  "TravelWiths": [
+    {
+      "TravelWithReservationGuestID": "84565-79673",
+      "TravelWithType": "ReservationParty"
+    },
+    {
+      "TravelWithReservationGuestID": "84565-79672",
+      "TravelWithType": "ReservationParty"
+    },
+    {
+      "TravelWithReservationGuestID": "84565-79674",
+      "TravelWithType": "ReservationParty"
+    }
+  ],
+  "VerificationStatus": "REJECTED",
+  "VoyageNumber": "DX201910244DCARIBBEAN",
+  "_id": "GuestPersonalInformation::84565-79671",
+  "_rev": "3-29ed62103d1b0717db6cce3395b785fd",
+  "channels": [
+    "ARS_DX_DX201910244DCARIBBEAN_GuestPersonalInformation",
+    "DX",
+    "DX_emb_aci_t",
+    "emb_ap_t",
+    "DX_emb_gw_t",
+    "DX_emb_va_t",
+    "DX_ARS_T",
+    "GuestPersonalInformation",
+    "DX_GuestPersonalInformation",
+    "MASDX201910244DCARIBBEAN"
+  ],
+  "lastModifiedBy": "backgroundsync",
+  "lastModifiedDate": "2019-10-22T15:24:34.64",
+  "sourceId": "core_ship",
+  "type": "GuestPersonalInformation"
+}

@@ -1,0 +1,89 @@
+{
+  "cmsData": {
+    "landing": {
+      "setMyPinText": "Set my PIN",
+      "heading": "The Band Delivery",
+      "deliveryTitle": "Delivery to {address}",
+      "wearableTitle": "THE BAND",
+      "description": "The Bands for you and your shipmates will be sent to {sailor}'s address.",
+      "travelPartyMembersTitle": "YOUR SHIPMATES'"
+    },
+    "addressDetail": {
+      "zip": "Zip Code",
+      "country": "Country",
+      "heading": "The Band Delivery",
+      "travelPartyMemberDescription": "Manage {name}'s delivery deets",
+      "city": "City",
+      "sailorDescription": "Manage your delivery deets",
+      "accountOwnerDeliveryDetail": "<p>The Band will be delivered to:&nbsp;</p>\n\n<p>{FullName}<br />\n{Address}<br />\n{City}, {ZipCode}<br />\n{Country}</p>\n\n<p>The delivery address is now locked&mdash;please contact Sailor Services if you need to amend your details.&nbsp;</p>\n",
+      "accountOwnerTrackingDetail": "<p>The Band is being delivered to:&nbsp;</p>\n\n<p>{FullName}<br />\n{Address}<br />\n{City}, {ZipCode}<br />\n{Country}</p>\n",
+      "fullName": "Full name",
+      "collectAtPortDescription": "<p><strong>Portside pick-up</strong><br />\nUnfortunately, we only deliver to the US, Canada and the UK. If you have an address in those countries, feel free to use that &mdash;&nbsp;and if not, tap the button below and we&rsquo;ll make sure you&#39;re able to pick up The Band at the port as soon as you board the ship.</p>\n",
+      "state": "State",
+      "line2": "Address line 2",
+      "line1": "Address line 1",
+      "existingAddressHelpText": "Choose an existing address",
+      "contactSailorService": "Contact Sailor Services"
+    },
+    "wearableActivation": {
+      "wearableNotFoundLink": "Try again",
+      "wearableActivateLandingBody": "Let’s make your Band seaworthy. It’ll make things plain sailing from the day you set sail.",
+      "skip": "Skip",
+      "activateButton": "Activate wearable",
+      "wearableActivateLandingImage": "https://integration.virginvoyages.com/dam/jcr:21f1c7b7-d7a1-485b-92f3-8d934cee9301/ILLO-wearable-activated-modal-628x628.png",
+      "wearableActivateLandingHeading": "Get your Band in ship shape",
+      "wearableNotFoundBody": "We can’t seem to find you. Check you’ve got your bluetooth on and The Band nearby.",
+      "wearableNotFoundImage": "https://integration.virginvoyages.com/dam/jcr:5e1b154a-711a-4cdd-96d6-9fe314ad0a3e/app_error_porthole_628x628.png",
+      "wearableSearchingState": "We're looking for The Band...",
+      "wearableNotFoundHeading": "Hmm...",
+      "wearableFoundState": "Ahoy there!",
+      "wearableInterstialLogo": "https://integration.virginvoyages.com/dam/jcr:d046b8ea-3201-4c4d-99ac-341538e9b90d/vv-logo-v.svg",
+      "contactSailorService": "Contact Sailor Services"
+    },
+    "wearablePin": {
+      "wearableActivatedImgUrl": "https://integration.virginvoyages.com/dam/jcr:21f1c7b7-d7a1-485b-92f3-8d934cee9301/ILLO-wearable-activated-modal-628x628.png",
+      "backArrowImgUrl": "https://integration.virginvoyages.com/dam/jcr:799b8309-5476-47e1-b025-0353b489a650/ICN-arrow-left-black-v1-01-24x24.svg",
+      "setPinHeader": "Set your PIN",
+      "confirmCheckmarkImgUrl": "https://integration.virginvoyages.com/dam/jcr:c6fdda27-0c9e-4bca-8137-6250025f69ba/ICN-tick-white-v1-01-24x24.svg",
+      "wearableActivatedHeader": "You're good to go, Sailor!",
+      "wearableActivatedBody": "The Band is your cabin keys, your onboard wallet... and even access to on-demand champagne. Enjoy 🥂",
+      "setPinSubHeader": "We found you! Now make let's make sure The Band is super safe. Choose a 4-digit PIN to authorize large purchases on board."
+    }
+  },
+  "deliveryData": {
+    "reservationGuestId": "893fd8aa-c84f-4d67-a751-abe0d098f50b",
+    "name": "Deirdre Sam",
+    "photoUrl": "",
+    "address": {
+      "countryCode": "US",
+      "city": "Miami",
+      "line2": "221b Baker Street",
+      "line1": "221b Baker Street",
+      "zip": "33012",
+      "state": "FL",
+      "addressId": "f47e33f2-0ea8-4978-b1e7-2bf0e2eb669c",
+      "reservationGuestDetailId": "a3a40e96-a162-464c-b913-c587811bf402"
+    },
+    "partyMembers": [
+      {
+        "reservationGuestId": "13bc192e-e15d-4970-9525-5d3e838f1943",
+        "name": "Theresa Alan",
+        "photoUrl": "",
+        "address": {
+          "countryCode": "US",
+          "city": "Miami",
+          "line2": "221b Baker Street",
+          "line1": "221b Baker Street",
+          "zip": "33012",
+          "state": "FL",
+          "addressId": "f47e33f2-0ea8-4978-b1e7-2bf0e2eb669c",
+          "reservationGuestDetailId": "a3a40e96-a162-464c-b913-c587811bf402"
+        },
+        "isEditable": false,
+        "isPrimary": false
+      }
+    ],
+    "isEditable": false,
+    "isPrimary": true
+  }
+}

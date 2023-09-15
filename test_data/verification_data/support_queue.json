@@ -1,0 +1,11 @@
+{
+  "result": "success",
+  "msg": "",
+  "id": 40,
+  "sailor_iam_user_id": "7500a062-5c27-11e9-91c6-4201ac180008",
+  "subject": "help",
+  "status": "new",
+  "loyalty": "gold",
+  "requires_attention": true,
+  "first_message_time": 1577095184
+}

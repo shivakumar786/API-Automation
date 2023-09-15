@@ -1,0 +1,50 @@
+{
+  "ExpiryDateEpoch": 1596412799000,
+  "PersonAlerts": [
+    {
+      "AddedBy": "d9a38dd0-39f1-4ab5-8fa7-32a49ee441aa",
+      "AddedDate": "2020-07-31T08:38:26.56152+00:00",
+      "AddedDateEpoch": 1596184706562,
+      "AlertCode": "CBP",
+      "AlertCreatedBy": "995855bc-02fc-476d-9a20-c924303cb0b6",
+      "AlertID": "f3dba5d9-86fd-4e4b-b09f-4f570042f103",
+      "AlertPriority": 1,
+      "AlertSeverity": 0,
+      "AlertTypeName": "CBP Hold",
+      "AlertTypeSeverity": 0,
+      "CreatedBy": "995855bc-02fc-476d-9a20-c924303cb0b6",
+      "Description": "Script Automation",
+      "DueDate": "2020-07-31T00:00:01",
+      "DueDateEpoch": 1596153601000,
+      "ExpiryDate": "2020-07-31T23:59:59",
+      "ExpiryDateEpoch": 1596239999000,
+      "IsCleared": false,
+      "IsDeleted": false,
+      "IsOverridable": true,
+      "IsRead": false,
+      "IsSoundEnabled": true,
+      "LastModifiedDate": "2020-07-31T08:38:26.567089+00:00",
+      "LastModifiedDateEpoch": 1596184706567,
+      "PersonAlertID": "c1c83dbd-0f73-4968-80b4-252cb435d600",
+      "PersonTypeCode": "RG",
+      "PropertyID": "SC",
+      "Source": "GANGWAY-ADMIN",
+      "sourceId": "core_ship"
+    }
+  ],
+  "ReservationGuestID": "14d5f802-34c6-4bc5-926f-e1233fed6b18",
+  "_id": "GuestPersonAlert::14d5f802-34c6-4bc5-926f-e1233fed6b18",
+  "_rev": "1-3ac678024bbce6430d79fd4d7ca4aed3",
+  "channels": [
+    "SC",
+    "GuestPersonAlert",
+    "SC_emb_gw_t",
+    "SC_emb_aci_t",
+    "SC_GuestPersonAlert"
+  ],
+  "lastModifiedBy": "backgroundsync",
+  "lastModifiedDate": "2020-07-31T08:38:26.567089+00:00",
+  "lastModifiedDateEpoch": 1596184706567,
+  "sourceId": "core_ship",
+  "type": "GuestPersonAlert"
+}

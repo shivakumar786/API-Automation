@@ -1,0 +1,28 @@
+{
+  "common": {
+    "category": "virgin",
+    "uiGroup": "ui group",
+    "downChevron": "https://dev.virginvoyages.com/dam/jcr:51ddc692-93ab-400a-8f99-29d486ae4715",
+    "nowPlayingLabel": "Now playing",
+    "cinemaModeLabel": "Activate cinema mode",
+    "cinemaModeIcon": "https://dev.virginvoyages.com/dam/jcr:51ddc692-93ab-400a-8f99-29d486ae4715",
+    "playDurationLabel": "{#:##:##} / {#:##:##}",
+    "playIcon": "https://dev.virginvoyages.com/dam/jcr:51ddc692-93ab-400a-8f99-29d486ae4715",
+    "pauseIcon": "https://dev.virginvoyages.com/dam/jcr:51ddc692-93ab-400a-8f99-29d486ae4715",
+    "voloumIcon": "https://dev.virginvoyages.com/dam/jcr:51ddc692-93ab-400a-8f99-29d486ae4715",
+    "voloumLowest": "https://dev.virginvoyages.com/dam/jcr:51ddc692-93ab-400a-8f99-29d486ae4715",
+    "voloumHighest": "https://dev.virginvoyages.com/dam/jcr:51ddc692-93ab-400a-8f99-29d486ae4715",
+    "closedIcon": "https://dev.virginvoyages.com/dam/jcr:51ddc692-93ab-400a-8f99-29d486ae4715",
+    "currentVoloumIndicator": "https://dev.virginvoyages.com/dam/jcr:51ddc692-93ab-400a-8f99-29d486ae4715",
+    "voloumBar": "https://dev.virginvoyages.com/dam/jcr:51ddc692-93ab-400a-8f99-29d486ae4715",
+    "forwardIcon": "https://dev.virginvoyages.com/dam/jcr:51ddc692-93ab-400a-8f99-29d486ae4715",
+    "backwardIcon": "https://dev.virginvoyages.com/dam/jcr:51ddc692-93ab-400a-8f99-29d486ae4715"
+  },
+  "contents": {
+    "title": "Sea Sports",
+    "description": "Come and enjoy sea activities",
+    "duration": "10:00",
+    "thumbnail": "https://devcdn.virginvoyages.com/dam/jcr:332e2574-7fd9-46cd-9a07-edadb388deb3/ITINERARY-COSTA-MAYA-FLYOUT-CARD-800x900.jpg",
+    "mediaURL": "https://ssdemo04.swankmp.com/ondemand/2.0/moviesSL/cenc/A29475_TW_XX_XX_XX/39845419/A29475_TW_XX_XX_XX.mpd"
+  }
+}

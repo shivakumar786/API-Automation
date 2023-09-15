@@ -1,0 +1,21 @@
+{
+  "personalDetails": {
+    "guestId": "905d6007-a074-4f7f-b0a5-603f876d2f18",
+    "firstName": "Johan",
+    "lastName": "Steegmans",
+    "birthDate": "1965-12-14",
+    "genderCode": "M"
+  },
+  "reservationDetails": {
+    "reservationGuestId": "0cd7cc6b-4312-41e0-b4f6-97b58ea15771",
+    "reservationNumber": "9900612732",
+    "cabinNumber": "11158Z",
+    "embarkDate": "2019-09-08",
+    "debarkDate": "2019-09-13",
+    "shipCode": "SC",
+    "voyageNumber": "SC1909085NOH",
+    "reservationId": "aacb0747-59c6-4b08-b757-0bc1f34168bb",
+    "isVIP": false,
+    "isPrimary": true
+  }
+}

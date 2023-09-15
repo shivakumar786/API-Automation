@@ -1,0 +1,11 @@
+{
+  "createdByUser": "SYSTEM",
+  "creationTime": "2018-06-14T15:37:23",
+  "modifiedByUser": "SYSTEM",
+  "modificationTime": "2018-06-14T15:37:23",
+  "paymentModeId": "9ef030f9-e5c1-e611-80c5-00155df80332",
+  "nameKey": "CARD",
+  "isDeleted": false,
+  "name": "CARD",
+  "code": "CARD"
+}

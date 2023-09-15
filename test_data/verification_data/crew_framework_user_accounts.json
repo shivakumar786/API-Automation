@@ -1,0 +1,20 @@
+{
+  "bookingWebsiteUrl": "book/voyage-planner/find-a-voyage",
+  "changePasswordUrl": "user-account-service/account/password",
+  "changeUserNameUrl": "user-account-service/account/username",
+  "emailSignInUrl": "user-account-service/signin/email",
+  "facebookSignInUrl": "user-account-service/signin/social?type=facebook",
+  "facebookSignUpUrl": "user-account-service/signup/social?type=facebook",
+  "forgetPasswordUrl": "user-account-service/forgetpassword",
+  "googleSignInUrl": "user-account-service/signin/social?type=google",
+  "googleSignUpUrl": "user-account-service/signup/social?type=google",
+  "logoutUrl": "user-account-service/logout",
+  "refreshTokenUrl": "user-account-service/refreshtoken",
+  "resetPasswordUrl": "user-account-service/setpassword",
+  "userProfileUrl": "user-account-service/userprofile",
+  "validateEmailUrl": "user-account-service/validateemail",
+  "signUpUrl": "user-account-service/signup",
+  "uploadPhotoUrl": "dxpcore/mediaitems?mediagroupid=f67c581d-4a9b-e611-80c2-00155df80332",
+  "privacyPolicyLink": "privacy-policy",
+  "termsAndConditionsLink": "addl-terms-and-conditions"
+}

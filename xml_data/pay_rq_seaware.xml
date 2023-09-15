@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<vx:OTA_CruisePaymentRQ xmlns:ns3="http://www.versonix.com/ota" xmlns:vx="http://www.opentravel.org/OTA/2003/05"
+                        xmlns:ns4="http://schemas.xmlsoap.org/soap/envelope/" Version="1.0">
+    <vx:POS>
+        <vx:Source ISOCountry="US">
+            <vx:RequestorID Type="1" ID_Context="SEAWARE" ID="{}"/>
+            <vx:BookingChannel Type="1">
+                <vx:CompanyName>OPENTRAVEL</vx:CompanyName>
+            </vx:BookingChannel>
+        </vx:Source>
+    </vx:POS>
+    <vx:ReservationPayment>
+        <vx:ReservationID Type="14" ID_Context="SEAWARE" ID="{}"/>
+        <vx:PaymentDetail PaymentType="5">
+            <vx:PaymentCard>
+                <vx:CardType>VISA</vx:CardType>
+                <vx:CardHolderName>JOHN BRADSHAW</vx:CardHolderName>
+                <vx:CardNumber>
+                    <vx:PlainText>444433******1111</vx:PlainText>
+                </vx:CardNumber>
+                <vx:ThreeDomainSecurity>
+                    <vx:Results TransactionID="{}" XID="{}"/>
+                </vx:ThreeDomainSecurity>
+            </vx:PaymentCard>
+            <vx:PaymentAmount CurrencyCode="USD" Amount="{}"/>
+        </vx:PaymentDetail>
+    </vx:ReservationPayment>
+</vx:OTA_CruisePaymentRQ>

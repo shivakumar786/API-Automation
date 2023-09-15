@@ -1,0 +1,52 @@
+{
+  "MenuItemId": "0739ffa3-ba71-4be8-bfe0-a61444a0245c",
+  "MenuItemNumber": 15,
+  "ABV": 0,
+  "VenueId": "a07421bf-6fe5-49af-a620-daabaa296e74",
+  "Name": "Tea - VV",
+  "SmallDescription": "Teas",
+  "Description": "Beverage",
+  "IsInactive": false,
+  "MenuItemType": {
+    "MenuItemTypeId": "48e283ba-2f2c-43d7-b5d6-57a354d4ffa8",
+    "Name": "Ship Eats ",
+    "Description": "Ship Eats "
+  },
+  "MenuItemIngredients": {
+    "MenuItemIngredientId": "ff1f1265-475b-47ca-87c2-9e6c72c79496",
+    "IngredientId": "5e937f47-31f2-4265-a413-55232351d46c",
+    "IngredientName": "BUTTER, UNSALTED"
+  },
+  "MenuItemPrices": {
+    "UnitId": "cfad5553-d72c-48cb-ab6a-4a1f38e3cd92",
+    "UnitName": "",
+    "Price": 0
+  },
+  "CustomizationGroupMenuItems": [],
+  "MealPeriodMenuItems": {
+    "Sequence": 0,
+    "MealPeriod": {
+      "MealPeriodId": "4140870e-960f-47dc-91ef-2061face37d4",
+      "MealPeriodType": "17",
+      "Name": "All Day",
+      "MealPeriodEffectiveWindows": []
+    },
+    "MealPeriodMenuItemId": "898023e0-60cf-4a52-a691-1d9e63700d5f"
+  },
+  "MenuItemAllergies": {
+    "AllergyId": "e55d41da-5217-44b1-8905-289c53fb5662",
+    "MenuItemAllergyId": "dd0175d0-408c-4825-a808-41be096c8260",
+    "AllergenName": "Milk (including lactose)"
+  },
+  "MenuItemCustomizationGroups": [],
+  "MenuItemExceptionWindows": [],
+  "MenuItemLifestyles": [],
+  "MenuItemNutritions": [],
+  "MenuItemFilters": [],
+  "MenuItemOptions": {
+    "MenuItemOptionId": "aefc7f96-2158-4a95-a82d-162c716c02ac",
+    "Name": "Green Tea",
+    "Code": "GRE",
+    "MenuItemId": "0739ffa3-ba71-4be8-bfe0-a61444a0245c"
+  }
+}

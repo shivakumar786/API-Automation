@@ -1,0 +1,46 @@
+{
+  "backButtonIconImageURL": "https://integration.virginvoyages.com/dam/jcr:799b8309-5476-47e1-b025-0353b489a650/ICN-arrow-left-black-v1-01-24x24.svg",
+  "header": "Moods",
+  "backActionURL": "https://int.gcpshore.virginvoyages.com/discovery-bff/discover/landing?reservation-id=760d1e8c-8dee-40e1-92ed-865886f2efeb&reservation-guest-id=893fd8aa-c84f-4d67-a751-abe0d098f50b&shipCode=SC",
+  "signPosts": [
+    {
+      "title": "Sip, snack and sunsets at sea",
+      "actionURL": "https://int.gcpshore.virginvoyages.com/discovery-bff/discover/Moods/food?reservation-id=760d1e8c-8dee-40e1-92ed-865886f2efeb&reservation-guest-id=893fd8aa-c84f-4d67-a751-abe0d098f50b&shipCode=SC",
+      "landscapeThumbnailURL": "https://integration.virginvoyages.com/dam/jcr:819686c6-3e5f-4cc3-b27b-cc98eff34817/IMG-discover-moods-landing-food-1600x800.jpg",
+      "portraitThumbnailURL": "https://integration.virginvoyages.com/dam/jcr:a1875a09-c386-425c-a851-c1c702251ae2/1000x1500.png",
+      "rowNumber": 0,
+      "sequence": 0
+    },
+    {
+      "title": "5th Ave by the sea...",
+      "actionURL": "https://int.gcpshore.virginvoyages.com/discovery-bff/discover/Moods/retail?reservation-id=760d1e8c-8dee-40e1-92ed-865886f2efeb&reservation-guest-id=893fd8aa-c84f-4d67-a751-abe0d098f50b&shipCode=SC",
+      "landscapeThumbnailURL": "https://integration.virginvoyages.com/dam/jcr:1eecc767-7ec6-4a02-afb4-9bd7868d3f14/IMG-discover-moods-landing-retail-1600x800.jpg",
+      "rowNumber": 3,
+      "sequence": 4
+    },
+    {
+      "title": "When stages float",
+      "actionURL": "https://int.gcpshore.virginvoyages.com/discovery-bff/discover/Moods/entertainment?reservation-id=760d1e8c-8dee-40e1-92ed-865886f2efeb&reservation-guest-id=893fd8aa-c84f-4d67-a751-abe0d098f50b&shipCode=SC",
+      "landscapeThumbnailURL": "https://integration.virginvoyages.com/dam/jcr:9531fcf3-22d6-4639-8460-4c74fc1fd1d7/IMG-discover-moods-landing-events-1600x800.jpg",
+      "portraitThumbnailURL": "https://integration.virginvoyages.com/dam/jcr:6c5b6e00-6a10-47e0-83fd-ed0f3a92c573/IMG-discover-moods-landing-events-800x1200.jpg",
+      "rowNumber": 1,
+      "sequence": 1
+    },
+    {
+      "title": "A guide to vitamin sea...",
+      "actionURL": "https://int.gcpshore.virginvoyages.com/discovery-bff/discover/Moods/relaxation?reservation-id=760d1e8c-8dee-40e1-92ed-865886f2efeb&reservation-guest-id=893fd8aa-c84f-4d67-a751-abe0d098f50b&shipCode=SC",
+      "landscapeThumbnailURL": "https://integration.virginvoyages.com/dam/jcr:3977cfe2-c029-4fd4-9024-c1ecf1e9f27e/IMG-discover-moods-landing-wellbeing-1600x800.png",
+      "portraitThumbnailURL": "https://integration.virginvoyages.com/dam/jcr:2c53b2ea-b779-42c4-ae90-385f06be169a/IMG-discover-moods-landing-wellbeing-800x1200.png",
+      "rowNumber": 1,
+      "sequence": 2
+    },
+    {
+      "title": "Move, shake &amp; meditate",
+      "actionURL": "https://int.gcpshore.virginvoyages.com/discovery-bff/discover/Moods/fitness?reservation-id=760d1e8c-8dee-40e1-92ed-865886f2efeb&reservation-guest-id=893fd8aa-c84f-4d67-a751-abe0d098f50b&shipCode=SC",
+      "landscapeThumbnailURL": "https://integration.virginvoyages.com/dam/jcr:82e9e6f6-1c32-4060-ae84-61de13f17d4e/IMG-discover-moods-landing-fitness-1600x800.jpg",
+      "rowNumber": 2,
+      "sequence": 3
+    }
+  ],
+  "subHeader": "Get the right feels with the perfect event to match your mood."
+}

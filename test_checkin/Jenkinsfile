@@ -1,0 +1,103 @@
+#!groovy
+library "JenkinsLib"
+
+e2eRepo = 'vv-e2e-automation'
+e2eBranch = common.getGitBranch()
+libRepo = 'automation-lib'
+libBranch = 'master'
+
+parameters = [
+    string(defaultValue: 'https://application-integration.ship.virginvoyages.com/svc/', description: "Ship Link", name: 'shipLink', trim: true),
+    string(defaultValue: 'https://int.gcpshore.virginvoyages.com/', description: "Shore Link", name: 'shoreLink', trim: true),
+]
+
+if (JOB_BASE_NAME.toLowerCase().contains('-Data-checkedIn')) {
+    parameters += [
+        string(defaultValue: 'master', description: "E2E Branch", name: 'E2EBranch', trim: true),
+        string(defaultValue: 'master', description: "Lib Branch", name: 'LibBranch', trim: true),
+    ]
+}
+
+properties([
+    buildDiscarder(logRotator(daysToKeepStr: '5', numToKeepStr: '500')),
+    azureAdAuthorizationMatrix(common.azurePermissions([build: true, read: true])),
+    parameters(parameters)
+])
+
+testBed = e2e.getTestBed(params.shoreLink)
+env.TEAMS_CHANNEL = e2e.getChannelName(params.shipLink)
+
+currentBuild.displayName = "$BUILD_NUMBER - ${testBed.toUpperCase()}"
+
+userTriggered = common.getBuildUser()['email']
+
+mentions = [userTriggered, 'vikesh.kumar@decurtis.com']
+description = [userTriggered.toUpperCase()]
+
+if (params.containsKey('E2EBranch')) {
+    if (params.E2EBranch != 'master') {
+        description.add("E2E: $params.E2EBranch")
+    }
+    e2eBranch = params.E2EBranch
+}
+
+if (params.containsKey('LibBranch')) {
+    if (params.LibBranch != 'master') {
+        description.add("LIB: $params.LibBranch")
+    }
+    libBranch = params.LibBranch
+}
+
+currentBuild.description = description.unique().sort().join(" ")
+
+pod.kubeNode(pod.ReturnContainers()) {
+    if (params.containsKey('LibBranch') && libBranch != 'master') {
+        stage('Setup Library') {
+            libCommit = scmWrapper.gitClone([repoName: libRepo, branch: libBranch, clean: true, folder: true])
+            dir (libRepo) {
+                sh(returnStdout: true, script: "git rev-parse --short --verify HEAD").trim()
+                sh '''
+                    set +x
+                    rm -rf /root/e2e-venv/lib/python3.8/site-packages/decurtis*
+                    cp -pr $WORKSPACE/automation-lib/decurtis /root/e2e-venv/lib/python3.8/site-packages/
+                '''
+            }
+        }
+    }
+
+    e2eCommit = scmWrapper.gitClone([repoName: e2eRepo, branch: e2eBranch, clean: true, folder: true])
+    dir(e2eRepo) {
+        pyTestParams = [
+            "--ship=$params.shipLink",
+            "--shore=$params.shoreLink",
+        ]
+        stage("Running data checkin") {
+            try {
+                python.RunPyTest([
+                    pyTestParams: pyTestParams, pyTestsPath: 'test_checkin', allureReport: true,
+                    reportName: "Data_checkin", mentions: mentions,
+                ])
+                scmWrapper.StatusUpdate([
+                    commit: e2eCommit, repoName: e2eRepo, message: "Checked in job Passed", status: 'SUCCESSFUL'
+                ])
+                if (params.containsKey('LibBranch') && libBranch != 'master') {
+                    scmWrapper.StatusUpdate([
+                        commit: libCommit, repoName: libRepo, message: "CheckedIn job Passed", status: 'SUCCESSFUL'
+                    ])
+                }
+                log.Success("CheckedIn job has passed :)")
+            } catch (e) {
+                scmWrapper.StatusUpdate([
+                    commit: e2eCommit, repoName: e2eRepo, message: "CheckedIn job Failed", status: 'FAILED'
+                ])
+                if (params.containsKey('LibBranch') && libBranch != 'master') {
+                    scmWrapper.StatusUpdate([
+                        commit: libCommit, repoName: libRepo, message: "CheckedIn job Failed", status: 'FAILED'
+                    ])
+                }
+                log.Fail("CheckedIn has failed  :( $e.message")
+
+            }
+        }
+    }
+}

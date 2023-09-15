@@ -1,0 +1,14 @@
+<LoadBooking_IN>
+    <MsgHeader>
+        <Version>1.0</Version>
+        <SessionGUID>{}</SessionGUID>
+        <Language>ENG</Language>
+        <ValidateMode>Y</ValidateMode>
+    </MsgHeader>
+    <Options>
+        <Lock>{}</Lock>
+    </Options>
+    <ResShellOptions>
+    </ResShellOptions>
+    <ResID>{}</ResID>
+</LoadBooking_IN>

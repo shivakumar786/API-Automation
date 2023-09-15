@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UpdateBooking_IN>
+    <MsgHeader>
+        <Version>1.0</Version>
+        <SessionGUID>{}</SessionGUID>
+        <Language>ENG</Language>
+    </MsgHeader>
+    <ResShell>
+        <ResHeader>
+            <ResID>{}</ResID>
+            <AgencyID>5</AgencyID>
+            <SecAgencyID>5</SecAgencyID>
+            <Currency>USD</Currency>
+            <ResStatus>BK</ResStatus>
+            <Probability>98</Probability>
+            <SourceCode>OPENTRAVEL</SourceCode>
+            <OfficeCode>VERSONIX</OfficeCode>
+            <CurrencyRate>1</CurrencyRate>
+            <Language>ENG</Language>
+            <ResMode>REGULAR</ResMode>
+            <ConsiderPaid>N</ConsiderPaid>
+            <InvoicesPerGuest>N</InvoicesPerGuest>
+            <IsOnTerms>N</IsOnTerms>
+            <Version>7</Version>
+        </ResHeader>
+        <ResGuests>
+            {}
+        </ResGuests>
+        <ResPackages>
+            <ResPackage>
+                {}
+            </ResPackage>
+            <ResPackage>
+                <PackageCode>{}</PackageCode>
+                <GuestRefs>2</GuestRefs>
+                <PackageClass>SHOREX</PackageClass>
+                <PackageType>{}</PackageType>
+            </ResPackage>
+        </ResPackages>
+    </ResShell>
+</UpdateBooking_IN>

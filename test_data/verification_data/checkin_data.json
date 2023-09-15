@@ -1,0 +1,187 @@
+{
+  "Header": {
+    "Title": "Sagar",
+    "reservationNumber": "84525",
+    "Description": "4 Day Caribbean Cruise | 24-28 Oct, 2019",
+    "showGuestAgeDetails": "True"
+  },
+  "Sailors": [
+    {
+      "SailorId": "84525-79511",
+      "Name": "Samantha Robert",
+      "firstName": "Samantha",
+      "lastName": "Robert",
+      "birthDate": "1987-02-12",
+      "age": "32",
+      "stateroom": "319",
+      "GenderCode": "F",
+      "IsCurrent": "True",
+      "isAdult": "True",
+      "email": "samantha.robert_5163@mailinator.com",
+      "isValidated": "False",
+      "PhotoUrl": "",
+      "PersonalInfoUrl": "https://dev-shore.dxp-decurtis.com/online-check-in-bff/personalinfo?sailorid=84525-79511&reservationid=84525",
+      "IdentificationUrl": "https://dev-shore.dxp-decurtis.com/online-check-in-bff/identification?sailorid=84525-79511&reservationid=84525",
+      "PaymentUrl": "https://dev-shore.dxp-decurtis.com/online-check-in-bff/payment?sailorid=84525-79511&reservationid=84525&reservationnumber=84525",
+      "TravelUrl": "https://dev-shore.dxp-decurtis.com/online-check-in-bff/travel?sailorid=84525-79511&reservationid=84525",
+      "PortArrivalUrl": "https://dev-shore.dxp-decurtis.com/online-check-in-bff/portarrival?sailorid=84525-79511&reservationid=84525",
+      "CruiseContractUrl": "https://dev-shore.dxp-decurtis.com/online-check-in-bff/cruisecontract?sailorid=84525-79511&reservationid=84525",
+      "CheckInSummaryUrl": "https://dev-shore.dxp-decurtis.com/online-check-in-bff/checkinsummary?sailorid=84525-79511&reservationid=84525&reservationnumber=84525",
+      "_links": {
+        "identificationRequiredFieldsUrl": {
+          "href": "https://dev-shore.dxp-decurtis.com/online-check-in-bff/identification/requiredfields?sailorid=84525-79511"
+        }
+      },
+      "PersonalInfoStatus": "0",
+      "CruiseContractStatus": "0",
+      "PaymentInfoStatus": "0",
+      "PortArrivalInfoStatus": "0",
+      "IdentificationInfoStatus": "0",
+      "TravelInfoStatus": "0"
+    },
+    {
+      "SailorId": "84525-79512",
+      "Name": "Sue Owen",
+      "firstName": "Sue",
+      "lastName": "Owen",
+      "birthDate": "1999-01-15",
+      "age": "20",
+      "stateroom": "319",
+      "GenderCode": "M",
+      "IsCurrent": "False",
+      "isAdult": "True",
+      "email": "sue.owen_4018@mailinator.com",
+      "isValidated": "False",
+      "PhotoUrl": "",
+      "PersonalInfoUrl": "https://dev-shore.dxp-decurtis.com/online-check-in-bff/personalinfo?sailorid=84525-79512&reservationid=84525",
+      "IdentificationUrl": "https://dev-shore.dxp-decurtis.com/online-check-in-bff/identification?sailorid=84525-79512&reservationid=84525",
+      "PaymentUrl": "https://dev-shore.dxp-decurtis.com/online-check-in-bff/payment?sailorid=84525-79512&reservationid=84525&reservationnumber=84525",
+      "TravelUrl": "https://dev-shore.dxp-decurtis.com/online-check-in-bff/travel?sailorid=84525-79512&reservationid=84525",
+      "PortArrivalUrl": "https://dev-shore.dxp-decurtis.com/online-check-in-bff/portarrival?sailorid=84525-79512&reservationid=84525",
+      "CruiseContractUrl": "https://dev-shore.dxp-decurtis.com/online-check-in-bff/cruisecontract?sailorid=84525-79512&reservationid=84525",
+      "CheckInSummaryUrl": "https://dev-shore.dxp-decurtis.com/online-check-in-bff/checkinsummary?sailorid=84525-79512&reservationid=84525&reservationnumber=84525",
+      "_links": {
+        "identificationRequiredFieldsUrl": {
+          "href": "https://dev-shore.dxp-decurtis.com/online-check-in-bff/identification/requiredfields?sailorid=84525-79512"
+        }
+      },
+      "PersonalInfoStatus": "0",
+      "CruiseContractStatus": "0",
+      "PaymentInfoStatus": "0",
+      "PortArrivalInfoStatus": "0",
+      "IdentificationInfoStatus": "0",
+      "TravelInfoStatus": "0"
+    },
+    {
+      "SailorId": "84525-79513",
+      "Name": "Carol Phil",
+      "firstName": "Carol",
+      "lastName": "Phil",
+      "birthDate": "2017-11-06",
+      "age": "1",
+      "stateroom": "319",
+      "GenderCode": "M",
+      "IsCurrent": "False",
+      "isAdult": "False",
+      "isPreTeen": "False",
+      "isLittleKid": "False",
+      "isInfant": "True",
+      "email": "carol.phil_5785@mailinator.com",
+      "isValidated": "False",
+      "PhotoUrl": "",
+      "PersonalInfoUrl": "https://dev-shore.dxp-decurtis.com/online-check-in-bff/personalinfo?sailorid=84525-79513&reservationid=84525",
+      "IdentificationUrl": "https://dev-shore.dxp-decurtis.com/online-check-in-bff/identification?sailorid=84525-79513&reservationid=84525",
+      "PaymentUrl": "https://dev-shore.dxp-decurtis.com/online-check-in-bff/payment?sailorid=84525-79513&reservationid=84525&reservationnumber=84525",
+      "TravelUrl": "https://dev-shore.dxp-decurtis.com/online-check-in-bff/travel?sailorid=84525-79513&reservationid=84525",
+      "PortArrivalUrl": "https://dev-shore.dxp-decurtis.com/online-check-in-bff/portarrival?sailorid=84525-79513&reservationid=84525",
+      "CruiseContractUrl": "https://dev-shore.dxp-decurtis.com/online-check-in-bff/cruisecontract?sailorid=84525-79513&reservationid=84525",
+      "CheckInSummaryUrl": "https://dev-shore.dxp-decurtis.com/online-check-in-bff/checkinsummary?sailorid=84525-79513&reservationid=84525&reservationnumber=84525",
+      "minorDebarkationUrl": "https://dev-shore.dxp-decurtis.com/online-check-in-bff/minordebarkation?sailorid=84525-79513&reservationid=84525&reservationnumber=84525",
+      "childRegistrationUrl": "https://dev-shore.dxp-decurtis.com/online-check-in-bff/childregistration?sailorid=84525-79513&reservationid=84525&reservationnumber=84525",
+      "_links": {
+        "identificationRequiredFieldsUrl": {
+          "href": "https://dev-shore.dxp-decurtis.com/online-check-in-bff/identification/requiredfields?sailorid=84525-79513"
+        }
+      },
+      "PersonalInfoStatus": "0",
+      "CruiseContractStatus": "0",
+      "PaymentInfoStatus": "0",
+      "PortArrivalInfoStatus": "0",
+      "IdentificationInfoStatus": "0",
+      "TravelInfoStatus": "0",
+      "minorDebarkationStatus": "0",
+      "childRegistrationStatus": "0"
+    },
+    {
+      "SailorId": "84525-79514",
+      "Name": "Donna Edward",
+      "firstName": "Donna",
+      "lastName": "Edward",
+      "birthDate": "2016-01-28",
+      "age": "3",
+      "stateroom": "319",
+      "GenderCode": "M",
+      "IsCurrent": "False",
+      "isAdult": "False",
+      "isPreTeen": "False",
+      "isLittleKid": "False",
+      "isInfant": "True",
+      "email": "donna.edward_4884@mailinator.com",
+      "isValidated": "False",
+      "PhotoUrl": "",
+      "PersonalInfoUrl": "https://dev-shore.dxp-decurtis.com/online-check-in-bff/personalinfo?sailorid=84525-79514&reservationid=84525",
+      "IdentificationUrl": "https://dev-shore.dxp-decurtis.com/online-check-in-bff/identification?sailorid=84525-79514&reservationid=84525",
+      "PaymentUrl": "https://dev-shore.dxp-decurtis.com/online-check-in-bff/payment?sailorid=84525-79514&reservationid=84525&reservationnumber=84525",
+      "TravelUrl": "https://dev-shore.dxp-decurtis.com/online-check-in-bff/travel?sailorid=84525-79514&reservationid=84525",
+      "PortArrivalUrl": "https://dev-shore.dxp-decurtis.com/online-check-in-bff/portarrival?sailorid=84525-79514&reservationid=84525",
+      "CruiseContractUrl": "https://dev-shore.dxp-decurtis.com/online-check-in-bff/cruisecontract?sailorid=84525-79514&reservationid=84525",
+      "CheckInSummaryUrl": "https://dev-shore.dxp-decurtis.com/online-check-in-bff/checkinsummary?sailorid=84525-79514&reservationid=84525&reservationnumber=84525",
+      "minorDebarkationUrl": "https://dev-shore.dxp-decurtis.com/online-check-in-bff/minordebarkation?sailorid=84525-79514&reservationid=84525&reservationnumber=84525",
+      "childRegistrationUrl": "https://dev-shore.dxp-decurtis.com/online-check-in-bff/childregistration?sailorid=84525-79514&reservationid=84525&reservationnumber=84525",
+      "_links": {
+        "identificationRequiredFieldsUrl": {
+          "href": "https://dev-shore.dxp-decurtis.com/online-check-in-bff/identification/requiredfields?sailorid=84525-79514"
+        }
+      },
+      "PersonalInfoStatus": "0",
+      "CruiseContractStatus": "0",
+      "PaymentInfoStatus": "0",
+      "PortArrivalInfoStatus": "0",
+      "IdentificationInfoStatus": "0",
+      "TravelInfoStatus": "0",
+      "minorDebarkationStatus": "0",
+      "childRegistrationStatus": "0"
+    }
+  ],
+  "_links": {
+    "personalInfoRequiredFieldsUrl": {
+      "href": "https://dev-shore.dxp-decurtis.com/online-check-in-bff/personalinfo/requiredfields"
+    },
+    "paymentRequiredFieldsUrl": {
+      "href": "https://dev-shore.dxp-decurtis.com/online-check-in-bff/payment/requiredfields"
+    },
+    "travelRequiredFieldsUrl": {
+      "href": "https://dev-shore.dxp-decurtis.com/online-check-in-bff/travel/requiredfields"
+    },
+    "portArrivalRequiredFieldsUrl": {
+      "href": "https://dev-shore.dxp-decurtis.com/online-check-in-bff/portarrival/requiredfields"
+    },
+    "minorDebarkationFieldsUrl": {
+      "href": "https://dev-shore.dxp-decurtis.com/online-check-in-bff/minordebarkation/requiredfields"
+    }
+  },
+  "reservationDetail": {
+    "embarkDate": "2019-10-24",
+    "debarkDate": "2019-10-28"
+  },
+  "configurations": {
+    "availableTabs": [],
+    "availableViews": [],
+    "hiddenFields": [],
+    "isCheckInClosed": "False",
+    "displayGuestLevelBarcode": "False",
+    "displayReservationLevelBarcode": "True",
+    "enableFacialRecognition": "True",
+    "enableFacialRecognitionHardStop": "False"
+  }
+}

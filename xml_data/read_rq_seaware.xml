@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<OTA_ReadRQ EchoToken="1439812729310.795520" PrimaryLangID="ENG" Version="1"
+            xmlns="http://www.opentravel.org/OTA/2003/05">
+    <POS>
+        <Source>
+            <RequestorID Type="5" ID_Context="SEAWARE" ID="5"/>
+            <BookingChannel Type="1">
+                <CompanyName>OPENTRAVEL</CompanyName>
+            </BookingChannel>
+        </Source>
+    </POS>
+    <ReadRequests>
+        <ReadRequest HistoryRequestedInd="false">
+            <UniqueID ID='{}' Type="14"/>
+        </ReadRequest>
+    </ReadRequests>
+</OTA_ReadRQ>
